@@ -1,0 +1,20 @@
+PODS:
+  - SideMenu (5.0.3)
+  - XLPagerTabStrip (8.1.0)
+
+DEPENDENCIES:
+  - SideMenu
+  - XLPagerTabStrip (~> 8.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SideMenu
+    - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  SideMenu: 1dcaabce84538c53325c287f7fe62999379a641c
+  XLPagerTabStrip: 22d4c58200d7c105e0e407ab6bfd01a5d85014be
+
+PODFILE CHECKSUM: 34561434b94942a23e2b80f22dfa382676b3b58c
+
+COCOAPODS: 1.5.3
