@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SideMenu
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,39 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+       
+  /*
+        if(true)
+        {
+            let objStory = UIStoryboard(name: "Main", bundle: nil)
+            let objLogin = objStory.instantiateViewController(withIdentifier: "LoginVC")
+            self.window?.rootViewController = objLogin
+            self.window?.makeKeyAndVisible()
+        }
+        else
+        {
+            
+            let objStory = UIStoryboard(name: "Main", bundle: nil)
+            let objLeft = objStory.instantiateViewController(withIdentifier: "LeftMenuNavigationController")
+            
+            SideMenuManager.default.menuLeftNavigationController = objLeft.navigationController as? UISideMenuNavigationController
+            
+            SideMenuManager.default.menuRightNavigationController = nil
+            
+            // Enable gestures. The left and/or right menus must be set up above for these to work.
+            // Note that these continue to work on the Navigation Controller independent of the View Controller it displays!
+            //            SideMenuManager.default.menuAddPanGestureToPresent(toView: self.navigationController!.navigationBar)
+            //            SideMenuManager.default.menuAddScreenEdgePanGesturesToPresent(toView: self.navigationController!.view)
+            ////
+            // Set up a cool background image for demo purposes
+            SideMenuManager.default.menuAnimationBackgroundColor = UIColor(patternImage: UIImage(named: "background")!)
+            
+            // Setting
+            SideMenuManager.default.menuFadeStatusBar = false
+            SideMenuManager.default.menuPresentMode = SideMenuManager.MenuPresentMode(rawValue: 0)!
+        }
+        */
         return true
     }
 

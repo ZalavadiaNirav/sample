@@ -39,10 +39,13 @@ class UserTabBar : ButtonBarPagerTabStripViewController {
         super.viewDidLoad()
 
         setupSideMenu()
-
-        
     }
     
+    @IBAction func loginAction(_ sender: Any) {
+       
+      
+        
+    }
     //MARK: XLPAGERSTRIP
     override func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
         let story1 = UIStoryboard(name: "Main", bundle: nil)
@@ -59,10 +62,12 @@ class UserTabBar : ButtonBarPagerTabStripViewController {
         // Define the menus
         SideMenuManager.default.menuLeftNavigationController = storyboard!.instantiateViewController(withIdentifier: "LeftMenuNavigationController") as? UISideMenuNavigationController
         
+        SideMenuManager.default.menuRightNavigationController = nil
+        
         // Enable gestures. The left and/or right menus must be set up above for these to work.
         // Note that these continue to work on the Navigation Controller independent of the View Controller it displays!
-        SideMenuManager.default.menuAddPanGestureToPresent(toView: self.navigationController!.navigationBar)
-        SideMenuManager.default.menuAddScreenEdgePanGesturesToPresent(toView: self.navigationController!.view)
+//        SideMenuManager.default.menuAddPanGestureToPresent(toView: self.navigationController!.navigationBar)
+//        SideMenuManager.default.menuAddScreenEdgePanGesturesToPresent(toView: self.navigationController!.view)
         
         // Set up a cool background image for demo purposes
         SideMenuManager.default.menuAnimationBackgroundColor = UIColor(patternImage: UIImage(named: "background")!)

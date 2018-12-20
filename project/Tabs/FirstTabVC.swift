@@ -25,6 +25,12 @@ class FirstTabVC: UIViewController, IndicatorInfoProvider{
         return IndicatorInfo(title: "First")
     }
     
+    @IBAction func loginaction(_ sender: Any) {
+        
+        let objStory = UIStoryboard(name: "Main", bundle: nil)
+        let objLogin = objStory.instantiateViewController(withIdentifier: "LoginVC")
+        self.present(objLogin, animated: true, completion: nil)
+    }
     /*
     // MARK: - Navigation
 

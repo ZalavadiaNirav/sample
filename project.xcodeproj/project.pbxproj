@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		846452D921CB5AAA00547B7A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846452D821CB5AAA00547B7A /* LoginVC.swift */; };
 		8469F05621C8C857006A9122 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8469F05521C8C857006A9122 /* AppDelegate.swift */; };
 		8469F05B21C8C857006A9122 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8469F05921C8C857006A9122 /* Main.storyboard */; };
 		8469F05D21C8C85A006A9122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8469F05C21C8C85A006A9122 /* Assets.xcassets */; };
@@ -15,7 +16,6 @@
 		8469F06B21C8E7DC006A9122 /* UserTabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8469F06A21C8E7DC006A9122 /* UserTabBar.storyboard */; };
 		8469F06D21C8EA92006A9122 /* FirstTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8469F06C21C8EA92006A9122 /* FirstTabVC.swift */; };
 		8469F06F21C8EA9F006A9122 /* SecondTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8469F06E21C8EA9F006A9122 /* SecondTabVC.swift */; };
-		8469F07121C8F65F006A9122 /* FirstTabVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8469F07021C8F65F006A9122 /* FirstTabVC.xib */; };
 		8469F07421C90A42006A9122 /* LeftMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8469F07321C90A42006A9122 /* LeftMenuVC.swift */; };
 		AFCEADE5BF83545C684E2EFA /* Pods_project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175AA3F8D1A4796FF2B26C80 /* Pods_project.framework */; };
 /* End PBXBuildFile section */
@@ -24,6 +24,7 @@
 		081C6504ED398A11357BD3A6 /* Pods-project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-project.release.xcconfig"; path = "Pods/Target Support Files/Pods-project/Pods-project.release.xcconfig"; sourceTree = "<group>"; };
 		175AA3F8D1A4796FF2B26C80 /* Pods_project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54858E3F8511AF0C0387C0AF /* Pods-project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-project/Pods-project.debug.xcconfig"; sourceTree = "<group>"; };
+		846452D821CB5AAA00547B7A /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		8469F05221C8C857006A9122 /* project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8469F05521C8C857006A9122 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8469F05A21C8C857006A9122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -34,7 +35,6 @@
 		8469F06A21C8E7DC006A9122 /* UserTabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserTabBar.storyboard; sourceTree = "<group>"; };
 		8469F06C21C8EA92006A9122 /* FirstTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabVC.swift; sourceTree = "<group>"; };
 		8469F06E21C8EA9F006A9122 /* SecondTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabVC.swift; sourceTree = "<group>"; };
-		8469F07021C8F65F006A9122 /* FirstTabVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstTabVC.xib; sourceTree = "<group>"; };
 		8469F07321C90A42006A9122 /* LeftMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +83,7 @@
 				8469F07221C90428006A9122 /* Menu */,
 				8469F06721C8E7AD006A9122 /* Tabs */,
 				8469F05521C8C857006A9122 /* AppDelegate.swift */,
+				846452D821CB5AAA00547B7A /* LoginVC.swift */,
 				8469F05921C8C857006A9122 /* Main.storyboard */,
 				8469F05C21C8C85A006A9122 /* Assets.xcassets */,
 				8469F05E21C8C85A006A9122 /* LaunchScreen.storyboard */,
@@ -97,7 +98,6 @@
 				8469F06821C8E7C8006A9122 /* UserTabBar.swift */,
 				8469F06A21C8E7DC006A9122 /* UserTabBar.storyboard */,
 				8469F06C21C8EA92006A9122 /* FirstTabVC.swift */,
-				8469F07021C8F65F006A9122 /* FirstTabVC.xib */,
 				8469F06E21C8EA9F006A9122 /* SecondTabVC.swift */,
 			);
 			path = Tabs;
@@ -180,7 +180,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8469F06021C8C85A006A9122 /* LaunchScreen.storyboard in Resources */,
-				8469F07121C8F65F006A9122 /* FirstTabVC.xib in Resources */,
 				8469F06B21C8E7DC006A9122 /* UserTabBar.storyboard in Resources */,
 				8469F05D21C8C85A006A9122 /* Assets.xcassets in Resources */,
 				8469F05B21C8C857006A9122 /* Main.storyboard in Resources */,
@@ -237,6 +236,7 @@
 			files = (
 				8469F06921C8E7C8006A9122 /* UserTabBar.swift in Sources */,
 				8469F07421C90A42006A9122 /* LeftMenuVC.swift in Sources */,
+				846452D921CB5AAA00547B7A /* LoginVC.swift in Sources */,
 				8469F06F21C8EA9F006A9122 /* SecondTabVC.swift in Sources */,
 				8469F05621C8C857006A9122 /* AppDelegate.swift in Sources */,
 				8469F06D21C8EA92006A9122 /* FirstTabVC.swift in Sources */,
@@ -316,7 +316,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -371,7 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -388,6 +388,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = project/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -406,6 +407,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = project/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
