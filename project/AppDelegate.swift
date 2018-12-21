@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
        
-  /*
+  
         if(true)
         {
             let objStory = UIStoryboard(name: "Main", bundle: nil)
@@ -49,7 +49,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             SideMenuManager.default.menuFadeStatusBar = false
             SideMenuManager.default.menuPresentMode = SideMenuManager.MenuPresentMode(rawValue: 0)!
         }
-        */
+        
         return true
     }
 
